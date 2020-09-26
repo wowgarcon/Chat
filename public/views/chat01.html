@@ -11,9 +11,11 @@
     <body>
         <h1>채팅 01</h1>
         <div>
-            <div id='chatLog'>채팅기록 쌓이는 곳</div>
-            <input type="text" name='chatText'>
-            <button>전송</button>
+            <div id='chatBox'>채팅기록 쌓이는 곳</div>
+            <input type="text" id='chatInput' name='chatText'>
+            <button id='sendBtn'>전송</button>
         </div>
     </body>
+    <script type='text/javascript' src="http://localhost:1004/socket.io/socket.io.js"> </script> 
+    <script type='module' src="../js/chat.js"></script>
 </html>
